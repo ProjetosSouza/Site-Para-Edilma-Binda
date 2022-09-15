@@ -1,0 +1,80 @@
+
+body { /*CORPO DA PÁGINA*/
+    background-color: #990e38; /*COR DE FUNDO DO SITE*/
+}
+
+.cabecalho-da-pagina /*DIV DO CABEÇALHO*/
+{
+    background-color: #ffffff; /*COR DO FUNDO DO CABECALHO*/
+    display: block; /* BLOCO DO ELEMENTO */
+    margin-left: auto; /*ALINHAMENTO EM RELAÇÃO A MARGEM ESQUERDA*/
+    margin-right: auto; /*ALINHAMENTO EM RELAÇÃO A MARGEM DIREITA*/
+}
+
+h2 { /*TÍTULO NO CABEÇALHO */
+    color: #990e38; /*COR DO TÍTULO*/
+    font-family: "Segoe UI Symbol"; /*TIPO DA FONTE*/
+    text-align: center; /*ALINHAMENTO DO TEXTO*/
+    font-size: 40px; /*TAMANHO DA FONTE*/
+}
+
+.descricao { /*DESCRIÇÃO NO CABEÇALHO DA PÁGINA*/
+    font-size: 18px; /*TAMNHO DA FONTE*/
+    font-family: "Segoe UI Symbol"; /*TIPO DA FONTE*/
+    text-align: center; /*ALINHAMENTO DO TEXTO*/
+}
+
+.img-logo{ /*LOGO DA COPA NO CABEÇALHO*/
+    height: 200px; /*ALTURA DA IMAGEM*/
+    display: block; /*BLOCO DO ELEMENTO*/
+    margin-left: auto; /*ALINHAMENTO EM RELAÇÃO A MARGEM ESQUERDA*/
+    margin-right: auto; /*ALINHAMENTO EM RELAÇÃO A MARGEM DIREITA*/
+}
+
+.corpo-da-pagina { /*DIV CORPO DA PÁGINA*/
+    width: 130px; /*LARGURA DO CORPO DA PÁGINA*/
+    margin:50px auto 50px; /*SUP, DIR, INF, ESQ.*/
+}
+
+
+
+
+.grade {/*DIV GRADE*/
+    display: grid;
+    grid-template-columns: calc(25% - 15PX) calc(25% - 15px) calc(25% - 15px) calc(25% - 15px);
+    background-color: transparent;
+    height: 760px;
+    grid-gap: 20px 20px;
+}
+
+.chaves { /*DIV DE CADA CHAVE*/
+    background-color: #FFFFFF;
+    padding: 20px 20px 20px 20px;
+    border-radius: 25px
+}
+
+.grupo { /*DIV DO CONTEÚDO DO GRUPO*/
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+}
+
+.nome-do-grupo { /*NOME DO GRUPO*/
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+.img-bandeira { /*IMAGENS DAS BANDEIRAS*/
+    height: 55px;
+    width: 70px;
+    margin:30px 30px 0 10px;
+    border-radius: 10px;
+}
+
+;nome-do-pais { /*NOME DO PÁIS*/
+    margin:-40px 30px 0 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
